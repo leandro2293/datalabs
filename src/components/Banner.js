@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Link } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
@@ -62,7 +62,7 @@ export const Banner = () => {
                 <h1>{`Somos especialistas em`} <span className="txt-rotate" dataPeriod="500" data-rotate='[ "Data Analytics", "Data Warehouse", "Business Intelligence", "ajudar você" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Nossa missão é ajudar empresas a tomar decisões inteligentes e estratégicas através do uso de dados. Na era digital, informações valiosas estão disponíveis em abundância, mas muitas empresas ainda lutam para transformá-las em insights. É aí que entramos em cena. </p>
                   <p>Nossa consultoria em data analytics e Business Intelligence (BI) oferece soluções personalizadas para atender às necessidades de cada empresa.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  {/* <a href="#connect">Conectar-se <ArrowRightCircle size={25} /></a> */}
               </div>}
             </TrackVisibility>
           </Col>
