@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/datalabs/static/css/main.34ef9442.css",
-    "main.js": "/datalabs/static/js/main.025bd619.js",
+    "main.css": "/datalabs/static/css/main.6a0adb05.css",
+    "main.js": "/datalabs/static/js/main.3d15ccd9.js",
     "static/js/787.af1cc81b.chunk.js": "/datalabs/static/js/787.af1cc81b.chunk.js",
     "static/media/color-sharp.png": "/datalabs/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/datalabs/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -20,14 +20,14 @@
     "static/media/contact-img.svg": "/datalabs/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/datalabs/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/datalabs/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/visualize.svg": "/datalabs/static/media/visualize.8b02b7e2bb21dcb3e1d38d6acf38abdf.svg",
-    "static/media/calculate.svg": "/datalabs/static/media/calculate.d3ab06cba62b0d7a52f9a4fb836502d4.svg",
-    "static/media/structure.svg": "/datalabs/static/media/structure.7f02eebf35a38e26de93e7cf78b84524.svg",
-    "static/media/automation.svg": "/datalabs/static/media/automation.c16651ebd2f2afbcaeeafd34fab3ec64.svg",
-    "static/media/extraction.svg": "/datalabs/static/media/extraction.604a5e437652c29df35665c5008022ef.svg",
-    "static/media/relational.svg": "/datalabs/static/media/relational.09534fa29c24666d896c9456769a3911.svg",
+    "static/media/visualize.svg": "/datalabs/static/media/visualize.d74850aaa35b21177170032488c76ed9.svg",
+    "static/media/calculate.svg": "/datalabs/static/media/calculate.b1a081b697ce847058453ca3ac6cc81d.svg",
+    "static/media/structure.svg": "/datalabs/static/media/structure.452515d2d9a338ac768af71862b16402.svg",
+    "static/media/automation.svg": "/datalabs/static/media/automation.84d1ac4f0cbef49ecad2184e1b55450e.svg",
+    "static/media/extraction.svg": "/datalabs/static/media/extraction.0665e8578f5c20efcf7c65a98d89dd01.svg",
+    "static/media/relational.svg": "/datalabs/static/media/relational.332433d7799abecc6e882d13dfaf528b.svg",
     "static/media/revicons.woff": "/datalabs/static/media/revicons.e8746a624ed098489406.woff",
-    "static/media/distribution.svg": "/datalabs/static/media/distribution.d7ad79fb212969cad2e834f449793387.svg",
+    "static/media/distribution.svg": "/datalabs/static/media/distribution.2f41bd9028f4f94895926161e7343425.svg",
     "static/media/header-img.svg": "/datalabs/static/media/header-img.e0a842841abad0c2c12f15e8f340ba91.svg",
     "static/media/logo.svg": "/datalabs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "static/media/header-tubo.svg": "/datalabs/static/media/header-tubo.fc537668bcabe54fb37bb418ad6a6391.svg",
@@ -37,12 +37,12 @@
     "static/media/arrow2.svg": "/datalabs/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/datalabs/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/datalabs/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.34ef9442.css.map": "/datalabs/static/css/main.34ef9442.css.map",
-    "main.025bd619.js.map": "/datalabs/static/js/main.025bd619.js.map",
+    "main.6a0adb05.css.map": "/datalabs/static/css/main.6a0adb05.css.map",
+    "main.3d15ccd9.js.map": "/datalabs/static/js/main.3d15ccd9.js.map",
     "787.af1cc81b.chunk.js.map": "/datalabs/static/js/787.af1cc81b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34ef9442.css",
-    "static/js/main.025bd619.js"
+    "static/css/main.6a0adb05.css",
+    "static/js/main.3d15ccd9.js"
   ]
 }
