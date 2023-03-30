@@ -1,6 +1,10 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import extraction from "../assets/img/extraction.svg";
+import structure from "../assets/img/structure.svg";
+import relational from "../assets/img/relational.svg";  
+import calculate from "../assets/img/calculate.svg";
+import visualize from "../assets/img/visualize.svg";
+import distribution from "../assets/img/distribution.svg";
+import automation from "../assets/img/automation.svg";  
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -16,7 +20,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -34,24 +38,36 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <h2>Os 7 Pilares</h2>
+                        <p>Existem diferentes abordagens e modelos para descrever os pilares do Business Intelligence (BI), mas uma estrutura comum e amplamente aceita é composta pelos seguintes sete pilares</p>
+                        <Carousel responsive={responsive} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={extraction} alt="Extração" />
+                                <h5>Extração</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={structure} alt="Estruturação" />
+                                <h5>Estruturação</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={relational} alt="Modelagem" />
+                                <h5>Modelagem</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={calculate} alt="Cálculos" />
+                                <h5>Cálculos</h5>
+                            </div>
+                            <div className="item">
+                                <img src={visualize} alt="Visuais" />
+                                <h5>Visuais</h5>
+                            </div>
+                            <div className="item">
+                                <img src={distribution} alt="Distribuição" />
+                                <h5>Distribuição</h5>
+                            </div>
+                            <div className="item">
+                                <img src={automation} alt="Automação" />
+                                <h5>Automação</h5>
                             </div>
                         </Carousel>
                     </div>

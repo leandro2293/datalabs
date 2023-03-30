@@ -60,7 +60,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem-vindo à DataLabs</span>
-                <h1>{`Somos especialistas em`} <span className="txt-rotate" dataPeriod="500" data-rotate='[ "Data Analytics", "Data Warehouse", "Business Intelligence", "ajudar você" ]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Somos especialistas em`} <span className="txt-rotate" dataPeriod="500" data-rotate='[ "Data Analytics", "Data Warehouse", "Business Intelligence", "ajudar você" ]'><br/><span className="wrap">{text}</span></span></h1>
                   <p>Nossa missão é ajudar empresas a tomar decisões inteligentes e estratégicas através do uso de dados. Na era digital, informações valiosas estão disponíveis em abundância, mas muitas empresas ainda lutam para transformá-las em insights. É aí que entramos em cena. </p>
                   <p>Nossa consultoria em data analytics e Business Intelligence (BI) oferece soluções personalizadas para atender às necessidades de cada empresa.</p>
                   {/* <a href="#connect">Conectar-se <ArrowRightCircle size={25} /></a> */}
@@ -70,8 +70,8 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerTubo} style={{position: "absolute"}} alt="Header Img"/>
+                <div style={{justifyContent: 'center', alignItems: 'center', position: "relative"}} className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <img src={headerTubo} style={{position: "absolute"}} alt="Header Img"/> 
                   <img src={headerImg} className="logoHeader" alt="Header Img"/>
                 </div>}
             </TrackVisibility>
