@@ -9,14 +9,17 @@ import dashImg6 from "../assets/img/dash6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { useState } from "react";
 
 export const Projects = () => {
-
+  
   const projects = [
     {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: dashImg1,
+      dashTitle: "Book De Custos",
+      urlDash: ""
     },
     {
       title: "Business Startup",
@@ -52,7 +55,7 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div className={isVisible ? "": ""}>
                 <h2>Portfólio</h2>
                 {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> */}
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
@@ -67,7 +70,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="third">Consultorias</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content id="slideInUp" className={isVisible ? "" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
                         {

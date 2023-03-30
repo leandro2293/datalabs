@@ -94,6 +94,14 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+
+@media (max-width: 768px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  nav.navbar a.navbar-brand {
+    width: 33% !important;
+  }
+}
+
 nav.navbar a.navbar-brand {
     /* width: 9%; */
     width: 12%;
@@ -260,6 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   display: block;
 }
+
 .banner p {
   color: #B8B8B8;
   font-size: 18px;
@@ -331,6 +340,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-size: 45px;
 	font-weight: 700;
 }
+
 .skill p {
     color: #B8B8B8;
     font-size: 18px;
@@ -339,7 +349,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 14px 0 75px 0;
 }
 .skill-slider {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   position: relative;
 }
@@ -419,14 +429,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px 0px 0px 8px;
+  cursor: pointer;
 }
 .nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
 }
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 8px 8px 0;
+  cursor: pointer;
 }
 .proj-imgbx {
   position: relative;
@@ -543,6 +556,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button::before {
   content: "";
   background: #121212;
+  border-radius: 8px;
   width: 0;
   height: 100%;
   position: absolute;
@@ -568,6 +582,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* border-radius: 55px; */
   border-radius: 8px;
   color: #121212;
+  /* padding: 85px 125px; */
   padding: 85px 125px;
   margin-bottom: 80px;
   margin-top: -122px;
@@ -633,4 +648,79 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+/* Modal */
+
+.modal-header {
+  background-color: #121212 !important;
+  color: #B8B8B8 !important;
+}
+
+.modal-footer button {
+  font-weight: 700;
+  color: #000;
+  background-color: #B8B8B8;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 8px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.modal-footer button span {
+  z-index: 1;
+  position: relative;
+}
+.modal-footer button:hover {
+  color: #fff;
+}
+.modal-footer button::before {
+  content: "";
+  background: #121212;
+  border-radius: 8px;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.modal-footer button:hover::before {
+  width: 100%;
+}
+
+/* Ajuste para celular */
+@media (max-width: 390px) {
+  .banner h1 {
+    font-size: 38px;
+  }
+  .banner img {
+    max-width: 72%;
+    margin-left: 14%;
+  }
+  .skill h2 {
+    font-size: 30px;
+  }
+  .project h2 {
+    font-size: 30px;
+  }
+  .project .nav.nav-pills {
+    width: 90%;
+  }
+  .project .nav.nav-pills .nav-link {
+    font-size: 14px;
+  }
+  .newsletter-bx {
+    padding: 55px 25px;
+  }
+
+  .new-email-bx input {
+    padding: 0 10px;
+  }
+  .new-email-bx button {
+    padding: 10px 10px;
+  }
 }
