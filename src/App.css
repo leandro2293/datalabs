@@ -15,6 +15,11 @@
 	font-weight: 400;
 }
 
+:root {
+  --theme-primary: #1e90ff;
+  --theme-secondary: #ffffff;
+}
+
 /************ Default Css ************/
 * {
   margin: 0;
@@ -242,8 +247,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  padding: 160px 0 100px 0;
+  /* background-image: url('./assets/img/banner-bg.png'); */
+  background-image: url('./assets/img/bg-banner.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,14 +260,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 8px 10px;
   border-radius: 5px;
   /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(0, 8, 53, 0.5) 111.58%);
+  /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(0, 8, 53, 0.5) 111.58%); */
+  background: linear-gradient(90.21deg, rgba(33, 57, 194, 0.5) -5.91%, rgba(0, 8, 53, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -414,7 +421,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%);
+    /* background: linear-gradient(90.21deg, rgba(33, 57, 194, 0.5) -5.91%, rgba(0, 8, 53, 0.5) 111.58%); */
+    /* background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%); */
+    background: linear-gradient(90.21deg, #2139c2 -5.91%, #000835 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -449,7 +458,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%); */
+  background: linear-gradient(90.21deg, #2139c2 -5.91%, #000835 111.58%);
+
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -497,7 +508,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   /* background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%); */
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%); */
+  background: linear-gradient(90.21deg, #2139c2 -5.91%, #000835 111.58%);
   
   padding: 60px 0 200px 0;
 }
@@ -515,8 +527,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   color: #fff;
-  margin: 0 0 8px 0;
-  padding: 18px 26px;
+  margin: 0 0 10px 0;
+  /* padding: 18px 26px; */
+  padding: 12px 20px;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -572,7 +585,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  /* background-image: url('./assets/img/footer-bg.png'); */
+  background-image: url('./assets/img/bg-footer.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -603,7 +617,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .new-email-bx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%); */
+  background: linear-gradient(90.21deg, #2139c2 -5.91%, #000835 111.58%);
   border-radius: 8px;
   position: absolute;
   z-index: -1;
@@ -632,7 +647,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%);
+  /* background: linear-gradient(90.21deg, #AA367C -5.91%, #000835 111.58%); */
+  background: linear-gradient(90.21deg, #2139c2 -5.91%, #000835 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
@@ -650,9 +666,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-
+.modal-fullscreen {
+  width: 100vw;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+}
 /* Modal */
-
+@media (min-width: 768px) {
+  .modal-dialog {
+    /* min-width: 90% !important; */
+    min-width: 90% !important;
+    max-width: none;
+  }
+  .modal-body {
+    min-height: 80% !important;
+    max-height: none;
+  }
+}
 .modal-header {
   background-color: #121212 !important;
   color: #B8B8B8 !important;

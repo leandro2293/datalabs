@@ -19,7 +19,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: dashImg1,
       dashTitle: "Book De Custos",
-      urlDash: ""
+      urlDash: "https://app.powerbi.com/reportEmbed?reportId=5ab31787-14a0-4c5f-908d-1c288d42a378&autoAuth=true&ctid=9c9c8341-d469-42a5-a3b1-68e24680f993"
     },
     {
       title: "Business Startup",
@@ -49,7 +49,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="portfolio">
       <Container>
         <Row>
           <Col size={12}>
