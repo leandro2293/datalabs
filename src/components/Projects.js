@@ -15,37 +15,45 @@ export const Projects = () => {
   
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Análise Faturamento",
+      description: "Realizado vs Meta",
       imgUrl: dashImg1,
-      dashTitle: "Book De Custos",
-      urlDash: "https://app.powerbi.com/reportEmbed?reportId=5ab31787-14a0-4c5f-908d-1c288d42a378&autoAuth=true&ctid=9c9c8341-d469-42a5-a3b1-68e24680f993"
+      dashTitle: "Análise de Faturamento de um PetShop",
+      urlDash: "https://app.powerbi.com/view?r=eyJrIjoiYjIzMjQzN2EtYjMzMi00NmJjLWE5MWEtZjE3ODBiZDdiNjQ2IiwidCI6ImNiOGQ3ZjUzLWY2ZmItNDRlOC05N2VlLTQ1M2IyNjM0ODVmMiJ9"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Financeiro",
+      description: "Financeiro + Fluxo de Caixa",
       imgUrl: dashImg2,
+      dashTitle: "Financeiro + Fluxo de Caixa",
+      urlDash: "https://app.powerbi.com/view?r=eyJrIjoiNjljZTJiNWItZjc4OS00YzljLTk1OTEtOTBiYTczMGQzY2JjIiwidCI6ImNiOGQ3ZjUzLWY2ZmItNDRlOC05N2VlLTQ1M2IyNjM0ODVmMiJ9"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Dashboard de Vendas",
+      description: "Realizado vs Meta",
       imgUrl: dashImg3,
+      dashTitle: "Dashboard de Vendas - Realizado vs Meta",
+      urlDash: "https://app.powerbi.com/view?r=eyJrIjoiNDM1OWE3ZmUtZmQ4OC00MGJhLTllZjUtYzYzMjk2N2MxNjBkIiwidCI6ImNiOGQ3ZjUzLWY2ZmItNDRlOC05N2VlLTQ1M2IyNjM0ODVmMiJ9"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "DRE",
+      description: "Demonstrativo de Resultados e Análise de Títulos",
       imgUrl: dashImg4,
+      dashTitle: "Demonstrativo de Resultados e Análise de Títulos",
+      urlDash: "https://app.powerbi.com/view?r=eyJrIjoiNWIyZDgyM2YtYjcyYS00ZmEzLTk4Y2ItOTE3YmMzMzhkZjUzIiwidCI6ImNiOGQ3ZjUzLWY2ZmItNDRlOC05N2VlLTQ1M2IyNjM0ODVmMiJ9"
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: dashImg5,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: dashImg6,
-    },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: dashImg5,
+    //   dashTitle: "Book De Custos",
+    //   urlDash: ""
+    // },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: dashImg6,
+    // },
   ];
 
   return (
@@ -85,12 +93,8 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    <Tab.Pane eventKey="second"></Tab.Pane>
+                    <Tab.Pane eventKey="third"></Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}

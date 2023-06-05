@@ -6,7 +6,7 @@ export const ProjectCard = ({ title, description, imgUrl, dashTitle, urlDash }) 
   const [modalShow, setModalShow] = useState(false);
   return (
     <>
-      <Col size={12} sm={6} md={4}>
+      <Col size={12} sm={6} md={6}>
         <div className="proj-imgbx" onClick={() => setModalShow(true)}>
           <img src={imgUrl} />
           <div className="proj-txtx">

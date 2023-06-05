@@ -9,8 +9,8 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
-// import colorSharp from "../assets/img/color-sharp.png"
-import colorSharp from "../assets/img/sharp-color.png"
+import colorSharp from "../assets/img/color-sharp.png"
+// import colorSharp from "../assets/img/sharp-color.png"
 
 export const Skills = () => {
   const responsive = {
@@ -34,7 +34,7 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="pilares">
         <div className="container">
             <div className="row">
                 <div className="col-12">
