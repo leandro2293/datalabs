@@ -16,7 +16,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Análise Faturamento",
-      description: "Realizado vs Meta",
+      description: "Realizado",
       imgUrl: dashImg1,
       dashTitle: "Análise de Faturamento de um PetShop",
       urlDash: "https://app.powerbi.com/view?r=eyJrIjoiYjIzMjQzN2EtYjMzMi00NmJjLWE5MWEtZjE3ODBiZDdiNjQ2IiwidCI6ImNiOGQ3ZjUzLWY2ZmItNDRlOC05N2VlLTQ1M2IyNjM0ODVmMiJ9"
